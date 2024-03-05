@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection</title>
+    <link rel="stylesheet" href="CollectionStyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Make Your Own Style</h1>
+        <p></p>
+    </header>
+
+    <div class="dress-container" id="dressContainer">
+        <!-- Dress cards will be dynamically added here -->
+    </div>
+
+    <div class="customize-section" id="customizeSection">
+        <h2>Customize Your Dress</h2>
+        <div class="customization-options">
+            <label for="colorSelect">Select Color:</label>
+            <select id="colorSelect">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <!-- Add more color options as needed -->
+            </select>
+        </div>
+
+        <div class="customization-options">
+            <label for="sizeSelect">Select Size:</label>
+            <select id="sizeSelect">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <!-- Add more size options as needed -->
+            </select>
+        </div>
+
+        <button onclick="submitCustomization()">Submit Customization</button>
+    </div>
+
+    <script src="Collection.js"></script>
+</body>
+
+</html>
